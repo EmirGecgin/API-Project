@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(221, 221, 221) !important;
+}
+
+.card {
+    box-shadow: 0 5px 5px 5px rgb(194, 194, 194);
+}
+
+.card:hover {
+    box-shadow: 0 5px 5px 5px rgb(124, 124, 124);
+}
+
+.user-info-details {
+    display: none;
+}
+
+.user-info-details.show {
+    display: block;
+}
+
+#showbtn {
+    cursor: pointer;
+}
